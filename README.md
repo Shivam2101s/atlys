@@ -8,7 +8,7 @@ A react project for dummy feed with authentication, which has two pages,
 
 #### Authentication
 Authentication is handled on client side through **LocalStorage** of browser
-- **users**: key stores array of users who have regirstered/signed up on app
+- **users**: key stores array of users who have registered/signed up on app
   *(if users key is not present, there are no registered users)*
 - **userState**: key stores currently logged in user on app
   *(if userState  key is not present, no user is logged in on app)*
@@ -19,7 +19,7 @@ Authentication is handled on client side through **LocalStorage** of browser
 
 #### Component Structure
 1.  **common**
-- **AuthCard** renders login/signup form and handles authentication
+- **AuthCard** renders login/sign-up form and handles authentication
 - **PostCard** renders ui of post
 - **Modal** renders modal
 
@@ -28,12 +28,10 @@ Authentication is handled on client side through **LocalStorage** of browser
 - **Auth** component renders authentication components
 
 3. **hocs**
-- **withAuth** HOC checks wheter user is logged in or not
+- **withAuth** HOC checks whether user is logged in or not
 
 4. **popups**
 - **AuthPopup** handles auth using Modal
-
-5. **icons** contains svg icon for Logo
 
 ------------
 
